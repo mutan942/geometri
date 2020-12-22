@@ -1,0 +1,7 @@
+compile
+run
+stop
+reload
+run
+stop
+destroy

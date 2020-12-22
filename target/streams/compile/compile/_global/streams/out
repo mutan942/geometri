@@ -1,0 +1,4 @@
+[error] D:\scalaweb\app\controllers\Kelompok.scala:41:18: not found: value string
+[error]      ade.println(string)
+[error]                  ^
+[error] one error found

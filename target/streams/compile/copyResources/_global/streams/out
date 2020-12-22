@@ -1,0 +1,5 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\scalaweb\conf\application.conf,D:\scalaweb\target\scala-2.13\classes\application.conf)
+[debug] 	(D:\scalaweb\conf\logback.xml,D:\scalaweb\target\scala-2.13\classes\logback.xml)
+[debug] 	(D:\scalaweb\conf\messages,D:\scalaweb\target\scala-2.13\classes\messages)
+[debug] 	(D:\scalaweb\conf\routes,D:\scalaweb\target\scala-2.13\classes\routes)

@@ -339,3 +339,144 @@ WARNING: Unmatched cancel notification for request id 21
 2020.12.23 01:45:49 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
 2020.12.23 01:45:50 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
 2020.12.23 01:52:23 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:12:22 INFO  Started: Metals version 0.9.8 in workspace 'D:\scalaweb' for client vscode.
+2020.12.23 02:12:23 INFO  time: initialize in 0.44s
+2020.12.23 02:12:28 WARN  Build server is not auto-connectable.
+2020.12.23 02:12:28 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:12:28 INFO  skipping build import with status 'Requested'
+2020.12.23 02:12:32 INFO  no build target: using presentation compiler with only scala-library
+2020.12.23 02:12:53 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:12:53 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:13:00 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:13:00 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:13:09 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:13:33 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:13:44 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:14:47 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:14:57 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:01 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:15:01 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:15:01 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:05 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:15:11 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:15 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:21 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:36 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:15:53 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:16:11 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 02:16:22 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 02:16:22 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:25:37 INFO  Started: Metals version 0.9.8 in workspace 'D:\scalaweb' for client vscode.
+2020.12.23 08:25:38 INFO  time: initialize in 0.97s
+2020.12.23 08:25:44 WARN  Build server is not auto-connectable.
+2020.12.23 08:25:44 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:25:44 INFO  skipping build import with status 'Requested'
+2020.12.23 08:25:50 INFO  no build target: using presentation compiler with only scala-library
+Dec 23, 2020 8:26:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2020.12.23 08:26:54 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:26:57 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:27:40 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:27:40 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:27:45 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:28:40 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:28:49 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:28:51 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:29:49 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:29:49 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:29:49 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:29:50 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:29:54 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:30:42 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:30:42 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:30:46 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:30:46 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:30:46 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:31:12 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:31:15 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:31:34 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:31:36 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:37:43 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:37:46 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:37:48 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:37:48 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:37:48 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:37:48 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:37:48 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:37:55 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+Dec 23, 2020 8:37:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+2020.12.23 08:38:01 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:38:01 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:38:05 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:38:06 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:39:27 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:39:30 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:40:51 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:40:51 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+Dec 23, 2020 8:41:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.12.23 08:41:17 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:42:35 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:42:45 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 08:42:45 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:43:05 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 08:43:40 INFO  shutting down Metals
+2020.12.23 09:15:58 INFO  Started: Metals version 0.9.8 in workspace 'D:\scalaweb' for client vscode.
+2020.12.23 09:15:59 INFO  time: initialize in 1.06s
+2020.12.23 09:16:00 WARN  Build server is not auto-connectable.
+2020.12.23 09:16:00 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:01 INFO  skipping build import with status 'Requested'
+2020.12.23 09:16:06 INFO  no build target: using presentation compiler with only scala-library
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Dec 23, 2020 9:16:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2020.12.23 09:16:06 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:18 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:20 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:30 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:37 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:16:40 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:17:14 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:17:14 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:17:17 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:17:17 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:17:17 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:18:14 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:18:44 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:18:46 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:18:46 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:18:58 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:19:21 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:19:44 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:19:45 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:19:59 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:25 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:34 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:20:36 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:20:36 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:20:38 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:20:38 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:40 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:45 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:53 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:20:53 WARN  code navigation does not work for the file 'D:\scalaweb\app\controllers\Kelompok.scala' because it doesn't belong to a build target.
+2020.12.23 09:20:54 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:01 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:01 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:10 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:10 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:25 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:47 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala
+2020.12.23 09:22:56 WARN  no build target for: D:\scalaweb\app\controllers\Kelompok.scala

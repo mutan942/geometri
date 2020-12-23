@@ -1,4 +1,7 @@
-[error] D:\scalaweb\app\controllers\Kelompok.scala:41:18: not found: value string
-[error]      ade.println(string)
-[error]                  ^
-[error] one error found
+[error] D:\scalaweb\app\controllers\Kelompok.scala:70:7: method hitung_lingkaran is defined twice;
+[error]   the conflicting method hitung_lingkaran was defined at line 56:7
+[error]   def hitung_lingkaran(jari:String) = Action { 
+[error]       ^
+[error] D:\scalaweb\conf\routes:14:1: value dataku is not a member of controllers.Kelompok
+[error] GET     /hhh                           controllers.Kelompok.dataku
+[error] two errors found

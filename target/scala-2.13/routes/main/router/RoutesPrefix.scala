@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/scalaweb/conf/routes
-// @DATE:Wed Dec 23 00:03:50 SGT 2020
+// @DATE:Wed Dec 23 08:39:33 SGT 2020
 
 
 package router {

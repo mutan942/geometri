@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/scalaweb/conf/routes
-// @DATE:Wed Dec 23 00:03:50 SGT 2020
+// @DATE:Wed Dec 23 08:39:33 SGT 2020
 
 package router
 
@@ -17,7 +17,7 @@ class Routes(
   Kelompok_2: controllers.Kelompok,
   // @LINE:8
   HomeController_1: controllers.HomeController,
-  // @LINE:16
+  // @LINE:18
   Assets_0: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -28,7 +28,7 @@ class Routes(
     Kelompok_2: controllers.Kelompok,
     // @LINE:8
     HomeController_1: controllers.HomeController,
-    // @LINE:16
+    // @LINE:18
     Assets_0: controllers.Assets
   ) = this(errorHandler, Kelompok_2, HomeController_1, Assets_0, "/")
 
@@ -49,6 +49,8 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hitung_p""", """controllers.Kelompok.hitung_pp(panjang:String, lebar:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hitung_l""", """controllers.Kelompok.hitung_lingkaran(jari:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """tutorial""", """controllers.HomeController.tutorial"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """history""", """controllers.Kelompok.history"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hhh""", """controllers.Kelompok.dataku"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -165,11 +167,47 @@ class Routes(
     )
   )
 
-  // @LINE:16
-  private[this] lazy val controllers_Assets_versioned6_route = Route("GET",
+  // @LINE:13
+  private[this] lazy val controllers_Kelompok_history6_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("history")))
+  )
+  private[this] lazy val controllers_Kelompok_history6_invoker = createInvoker(
+    Kelompok_2.history,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Kelompok",
+      "history",
+      Nil,
+      "GET",
+      this.prefix + """history""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:14
+  private[this] lazy val controllers_Kelompok_dataku7_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("hhh")))
+  )
+  private[this] lazy val controllers_Kelompok_dataku7_invoker = createInvoker(
+    Kelompok_2.dataku,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Kelompok",
+      "dataku",
+      Nil,
+      "GET",
+      this.prefix + """hhh""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:18
+  private[this] lazy val controllers_Assets_versioned8_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned6_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned8_invoker = createInvoker(
     Assets_0.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -222,10 +260,22 @@ class Routes(
         controllers_HomeController_tutorial5_invoker.call(HomeController_1.tutorial)
       }
   
-    // @LINE:16
-    case controllers_Assets_versioned6_route(params@_) =>
+    // @LINE:13
+    case controllers_Kelompok_history6_route(params@_) =>
+      call { 
+        controllers_Kelompok_history6_invoker.call(Kelompok_2.history)
+      }
+  
+    // @LINE:14
+    case controllers_Kelompok_dataku7_route(params@_) =>
+      call { 
+        controllers_Kelompok_dataku7_invoker.call(Kelompok_2.dataku)
+      }
+  
+    // @LINE:18
+    case controllers_Assets_versioned8_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned6_invoker.call(Assets_0.versioned(path, file))
+        controllers_Assets_versioned8_invoker.call(Assets_0.versioned(path, file))
       }
   }
 }

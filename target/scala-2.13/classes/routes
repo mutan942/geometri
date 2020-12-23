@@ -10,6 +10,8 @@ GET     /hitung_s                    controllers.Kelompok.hitung_segitiga(alas, 
 GET     /hitung_p                    controllers.Kelompok.hitung_pp(panjang, lebar)
 GET     /hitung_l                    controllers.Kelompok.hitung_lingkaran(jari)
 GET     /tutorial                           controllers.HomeController.tutorial
+GET     /history                           controllers.Kelompok.history
+GET     /hhh                           controllers.Kelompok.dataku
 
 
 # Map static resources from the /public folder to the /assets URL path

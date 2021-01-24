@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:D:/scalaweb/conf/routes
-// @DATE:Wed Dec 23 08:39:33 SGT 2020
+// @SOURCE:D:/Utama/Semester 7/Scala/Ujian Socket/scala_soket/conf/routes
+// @DATE:Sun Jan 24 13:51:20 SGT 2021
 
 
 package router {

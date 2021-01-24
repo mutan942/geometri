@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:D:/scalaweb/conf/routes
-// @DATE:Wed Dec 23 08:39:33 SGT 2020
+// @SOURCE:D:/Utama/Semester 7/Scala/Ujian Socket/scala_soket/conf/routes
+// @DATE:Sun Jan 24 13:51:20 SGT 2021
 
 package router
 
@@ -14,10 +14,10 @@ import _root_.controllers.Assets.Asset
 class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:7
-  Kelompok_2: controllers.Kelompok,
+  ClientSocket_1: controllers.ClientSocket,
   // @LINE:8
-  HomeController_1: controllers.HomeController,
-  // @LINE:18
+  HomeController_2: controllers.HomeController,
+  // @LINE:15
   Assets_0: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -25,17 +25,17 @@ class Routes(
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:7
-    Kelompok_2: controllers.Kelompok,
+    ClientSocket_1: controllers.ClientSocket,
     // @LINE:8
-    HomeController_1: controllers.HomeController,
-    // @LINE:18
+    HomeController_2: controllers.HomeController,
+    // @LINE:15
     Assets_0: controllers.Assets
-  ) = this(errorHandler, Kelompok_2, HomeController_1, Assets_0, "/")
+  ) = this(errorHandler, ClientSocket_1, HomeController_2, Assets_0, "/")
 
   def withPrefix(addPrefix: String): Routes = {
     val prefix = play.api.routing.Router.concatPrefix(addPrefix, this.prefix)
     router.RoutesPrefix.setPrefix(prefix)
-    new Routes(errorHandler, Kelompok_2, HomeController_1, Assets_0, prefix)
+    new Routes(errorHandler, ClientSocket_1, HomeController_2, Assets_0, prefix)
   }
 
   private[this] val defaultPrefix: String = {
@@ -43,14 +43,11 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.Kelompok.index"""),
+    ("""GET""", this.prefix, """controllers.ClientSocket.index"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """explore""", """controllers.HomeController.explore"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hitung_s""", """controllers.Kelompok.hitung_segitiga(alas:String, tinggi:String)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hitung_p""", """controllers.Kelompok.hitung_pp(panjang:String, lebar:String)"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hitung_l""", """controllers.Kelompok.hitung_lingkaran(jari:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """tutorial""", """controllers.HomeController.tutorial"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """history""", """controllers.Kelompok.history"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """hhh""", """controllers.Kelompok.dataku"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """minta""", """controllers.ClientSocket.minta_balik(stringku:String)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """minta2""", """controllers.ClientSocket.latihan2(stringku:String)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -60,14 +57,14 @@ class Routes(
 
 
   // @LINE:7
-  private[this] lazy val controllers_Kelompok_index0_route = Route("GET",
+  private[this] lazy val controllers_ClientSocket_index0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
-  private[this] lazy val controllers_Kelompok_index0_invoker = createInvoker(
-    Kelompok_2.index,
+  private[this] lazy val controllers_ClientSocket_index0_invoker = createInvoker(
+    ClientSocket_1.index,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.Kelompok",
+      "controllers.ClientSocket",
       "index",
       Nil,
       "GET",
@@ -82,7 +79,7 @@ class Routes(
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("explore")))
   )
   private[this] lazy val controllers_HomeController_explore1_invoker = createInvoker(
-    HomeController_1.explore,
+    HomeController_2.explore,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
@@ -96,65 +93,11 @@ class Routes(
   )
 
   // @LINE:9
-  private[this] lazy val controllers_Kelompok_hitung_segitiga2_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("hitung_s")))
-  )
-  private[this] lazy val controllers_Kelompok_hitung_segitiga2_invoker = createInvoker(
-    Kelompok_2.hitung_segitiga(fakeValue[String], fakeValue[String]),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.Kelompok",
-      "hitung_segitiga",
-      Seq(classOf[String], classOf[String]),
-      "GET",
-      this.prefix + """hitung_s""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:10
-  private[this] lazy val controllers_Kelompok_hitung_pp3_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("hitung_p")))
-  )
-  private[this] lazy val controllers_Kelompok_hitung_pp3_invoker = createInvoker(
-    Kelompok_2.hitung_pp(fakeValue[String], fakeValue[String]),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.Kelompok",
-      "hitung_pp",
-      Seq(classOf[String], classOf[String]),
-      "GET",
-      this.prefix + """hitung_p""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:11
-  private[this] lazy val controllers_Kelompok_hitung_lingkaran4_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("hitung_l")))
-  )
-  private[this] lazy val controllers_Kelompok_hitung_lingkaran4_invoker = createInvoker(
-    Kelompok_2.hitung_lingkaran(fakeValue[String]),
-    play.api.routing.HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.Kelompok",
-      "hitung_lingkaran",
-      Seq(classOf[String]),
-      "GET",
-      this.prefix + """hitung_l""",
-      """""",
-      Seq()
-    )
-  )
-
-  // @LINE:12
-  private[this] lazy val controllers_HomeController_tutorial5_route = Route("GET",
+  private[this] lazy val controllers_HomeController_tutorial2_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("tutorial")))
   )
-  private[this] lazy val controllers_HomeController_tutorial5_invoker = createInvoker(
-    HomeController_1.tutorial,
+  private[this] lazy val controllers_HomeController_tutorial2_invoker = createInvoker(
+    HomeController_2.tutorial,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
@@ -167,47 +110,47 @@ class Routes(
     )
   )
 
-  // @LINE:13
-  private[this] lazy val controllers_Kelompok_history6_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("history")))
+  // @LINE:10
+  private[this] lazy val controllers_ClientSocket_minta_balik3_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("minta")))
   )
-  private[this] lazy val controllers_Kelompok_history6_invoker = createInvoker(
-    Kelompok_2.history,
+  private[this] lazy val controllers_ClientSocket_minta_balik3_invoker = createInvoker(
+    ClientSocket_1.minta_balik(fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.Kelompok",
-      "history",
-      Nil,
+      "controllers.ClientSocket",
+      "minta_balik",
+      Seq(classOf[String]),
       "GET",
-      this.prefix + """history""",
+      this.prefix + """minta""",
       """""",
       Seq()
     )
   )
 
-  // @LINE:14
-  private[this] lazy val controllers_Kelompok_dataku7_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("hhh")))
+  // @LINE:11
+  private[this] lazy val controllers_ClientSocket_latihan24_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("minta2")))
   )
-  private[this] lazy val controllers_Kelompok_dataku7_invoker = createInvoker(
-    Kelompok_2.dataku,
+  private[this] lazy val controllers_ClientSocket_latihan24_invoker = createInvoker(
+    ClientSocket_1.latihan2(fakeValue[String]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.Kelompok",
-      "dataku",
-      Nil,
+      "controllers.ClientSocket",
+      "latihan2",
+      Seq(classOf[String]),
       "GET",
-      this.prefix + """hhh""",
+      this.prefix + """minta2""",
       """""",
       Seq()
     )
   )
 
-  // @LINE:18
-  private[this] lazy val controllers_Assets_versioned8_route = Route("GET",
+  // @LINE:15
+  private[this] lazy val controllers_Assets_versioned5_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned8_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned5_invoker = createInvoker(
     Assets_0.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -225,57 +168,39 @@ class Routes(
   def routes: PartialFunction[RequestHeader, Handler] = {
   
     // @LINE:7
-    case controllers_Kelompok_index0_route(params@_) =>
+    case controllers_ClientSocket_index0_route(params@_) =>
       call { 
-        controllers_Kelompok_index0_invoker.call(Kelompok_2.index)
+        controllers_ClientSocket_index0_invoker.call(ClientSocket_1.index)
       }
   
     // @LINE:8
     case controllers_HomeController_explore1_route(params@_) =>
       call { 
-        controllers_HomeController_explore1_invoker.call(HomeController_1.explore)
+        controllers_HomeController_explore1_invoker.call(HomeController_2.explore)
       }
   
     // @LINE:9
-    case controllers_Kelompok_hitung_segitiga2_route(params@_) =>
-      call(params.fromQuery[String]("alas", None), params.fromQuery[String]("tinggi", None)) { (alas, tinggi) =>
-        controllers_Kelompok_hitung_segitiga2_invoker.call(Kelompok_2.hitung_segitiga(alas, tinggi))
+    case controllers_HomeController_tutorial2_route(params@_) =>
+      call { 
+        controllers_HomeController_tutorial2_invoker.call(HomeController_2.tutorial)
       }
   
     // @LINE:10
-    case controllers_Kelompok_hitung_pp3_route(params@_) =>
-      call(params.fromQuery[String]("panjang", None), params.fromQuery[String]("lebar", None)) { (panjang, lebar) =>
-        controllers_Kelompok_hitung_pp3_invoker.call(Kelompok_2.hitung_pp(panjang, lebar))
+    case controllers_ClientSocket_minta_balik3_route(params@_) =>
+      call(params.fromQuery[String]("stringku", None)) { (stringku) =>
+        controllers_ClientSocket_minta_balik3_invoker.call(ClientSocket_1.minta_balik(stringku))
       }
   
     // @LINE:11
-    case controllers_Kelompok_hitung_lingkaran4_route(params@_) =>
-      call(params.fromQuery[String]("jari", None)) { (jari) =>
-        controllers_Kelompok_hitung_lingkaran4_invoker.call(Kelompok_2.hitung_lingkaran(jari))
+    case controllers_ClientSocket_latihan24_route(params@_) =>
+      call(params.fromQuery[String]("stringku", None)) { (stringku) =>
+        controllers_ClientSocket_latihan24_invoker.call(ClientSocket_1.latihan2(stringku))
       }
   
-    // @LINE:12
-    case controllers_HomeController_tutorial5_route(params@_) =>
-      call { 
-        controllers_HomeController_tutorial5_invoker.call(HomeController_1.tutorial)
-      }
-  
-    // @LINE:13
-    case controllers_Kelompok_history6_route(params@_) =>
-      call { 
-        controllers_Kelompok_history6_invoker.call(Kelompok_2.history)
-      }
-  
-    // @LINE:14
-    case controllers_Kelompok_dataku7_route(params@_) =>
-      call { 
-        controllers_Kelompok_dataku7_invoker.call(Kelompok_2.dataku)
-      }
-  
-    // @LINE:18
-    case controllers_Assets_versioned8_route(params@_) =>
+    // @LINE:15
+    case controllers_Assets_versioned5_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned8_invoker.call(Assets_0.versioned(path, file))
+        controllers_Assets_versioned5_invoker.call(Assets_0.versioned(path, file))
       }
   }
 }

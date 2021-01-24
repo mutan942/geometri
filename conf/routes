@@ -4,14 +4,11 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                                   controllers.Kelompok.index
+GET     /                                   controllers.ClientSocket.index
 GET     /explore                            controllers.HomeController.explore
-GET     /hitung_s                    controllers.Kelompok.hitung_segitiga(alas, tinggi)
-GET     /hitung_p                    controllers.Kelompok.hitung_pp(panjang, lebar)
-GET     /hitung_l                    controllers.Kelompok.hitung_lingkaran(jari)
 GET     /tutorial                           controllers.HomeController.tutorial
-GET     /history                           controllers.Kelompok.history
-GET     /hhh                           controllers.Kelompok.dataku
+GET     /minta                         controllers.ClientSocket.minta_balik(stringku)
+GET     /minta2                         controllers.ClientSocket.latihan2(stringku)
 
 
 # Map static resources from the /public folder to the /assets URL path

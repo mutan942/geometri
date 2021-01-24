@@ -1,0 +1,69 @@
+ @() @main("Welcome") { @defining(play.core.PlayVersion.current) { version =>
+<div class="card">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Latihan 1 (Pembalik String)</h5>
+                    <div class="response"></div>
+                    <hr>
+                    <form id="clientku">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Masukkan String</label>
+                            <input type="text" class="form-control" name="stringku" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">String diatas akan dibalik oleh server</small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Latihan 2 (Pembagi List)</h5>
+                    <div class="response2"></div>
+                    <hr>
+                    <form id="clientku2">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Masukkan String</label>
+                            <textarea type="text" class="form-control" name="stringku" aria-describedby="emailHelp"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">Pisahkan setiap kata dengan SPASI</small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    $('#clientku').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+            url: '/minta',
+            type: 'GET',
+            data: $(this).serialize(),
+            success: function(data) {
+                $('.response').html(data)
+            }
+        });
+    })
+
+    $('#clientku2').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+            url: '/minta2',
+            type: 'GET',
+            data: $(this).serialize(),
+            success: function(data) {
+                $('.response2').html(data)
+            }
+        });
+    })
+</script>
+} }

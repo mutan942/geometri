@@ -53,12 +53,12 @@ Seq[Any](format.raw/*2.35*/("""
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">SCALA</a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/history">History</a>
-                    </li>
+                    </li>-->
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -88,10 +88,10 @@ Seq[Any](format.raw/*2.35*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2020-12-23T09:25:14.537
-                  SOURCE: D:/scalaweb/app/views/main.scala.html
-                  HASH: aeb75d98482000a7bdd7f33da946b417e57d1884
-                  MATRIX: 983->256|1108->286|1138->290|1390->515|1405->521|1480->575|1654->722|1669->728|1749->787|3617->2628|3645->2635|3678->2641
+                  DATE: 2021-01-24T13:51:20.299
+                  SOURCE: D:/Utama/Semester 7/Scala/Ujian Socket/scala_soket/app/views/main.scala.html
+                  HASH: 766132d01f60f9a71014109884ce2c70a872c443
+                  MATRIX: 983->256|1108->286|1138->290|1390->515|1405->521|1480->575|1654->722|1669->728|1749->787|3625->2636|3653->2643|3686->2649
                   LINES: 22->2|27->2|29->4|37->12|37->12|37->12|38->13|38->13|38->13|71->46|71->46|72->47
                   -- GENERATED --
               */

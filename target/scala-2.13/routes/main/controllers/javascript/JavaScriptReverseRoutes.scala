@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:D:/scalaweb/conf/routes
-// @DATE:Wed Dec 23 08:39:33 SGT 2020
+// @SOURCE:D:/Utama/Semester 7/Scala/Ujian Socket/scala_soket/conf/routes
+// @DATE:Sun Jan 24 13:51:20 SGT 2021
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -10,6 +10,46 @@ import _root_.controllers.Assets.Asset
 // @LINE:7
 package controllers.javascript {
 
+  // @LINE:7
+  class ReverseClientSocket(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:7
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ClientSocket.index",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+    // @LINE:11
+    def latihan2: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ClientSocket.latihan2",
+      """
+        function(stringku0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "minta2" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("stringku", stringku0)])})
+        }
+      """
+    )
+  
+    // @LINE:10
+    def minta_balik: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ClientSocket.minta_balik",
+      """
+        function(stringku0) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "minta" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("stringku", stringku0)])})
+        }
+      """
+    )
+  
+  }
+
   // @LINE:8
   class ReverseHomeController(_prefix: => String) {
 
@@ -18,7 +58,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:12
+    // @LINE:9
     def tutorial: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.tutorial",
       """
@@ -40,77 +80,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:7
-  class ReverseKelompok(_prefix: => String) {
-
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:14
-    def dataku: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.dataku",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "hhh"})
-        }
-      """
-    )
-  
-    // @LINE:10
-    def hitung_pp: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.hitung_pp",
-      """
-        function(panjang0,lebar1) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "hitung_p" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("panjang", panjang0), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("lebar", lebar1)])})
-        }
-      """
-    )
-  
-    // @LINE:11
-    def hitung_lingkaran: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.hitung_lingkaran",
-      """
-        function(jari0) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "hitung_l" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("jari", jari0)])})
-        }
-      """
-    )
-  
-    // @LINE:13
-    def history: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.history",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "history"})
-        }
-      """
-    )
-  
-    // @LINE:9
-    def hitung_segitiga: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.hitung_segitiga",
-      """
-        function(alas0,tinggi1) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "hitung_s" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("alas", alas0), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("tinggi", tinggi1)])})
-        }
-      """
-    )
-  
-    // @LINE:7
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Kelompok.index",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
-        }
-      """
-    )
-  
-  }
-
-  // @LINE:18
+  // @LINE:15
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -118,7 +88,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:18
+    // @LINE:15
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

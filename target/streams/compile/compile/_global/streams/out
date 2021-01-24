@@ -1,7 +1,6 @@
-[error] D:\scalaweb\app\controllers\Kelompok.scala:70:7: method hitung_lingkaran is defined twice;
-[error]   the conflicting method hitung_lingkaran was defined at line 56:7
-[error]   def hitung_lingkaran(jari:String) = Action { 
-[error]       ^
-[error] D:\scalaweb\conf\routes:14:1: value dataku is not a member of controllers.Kelompok
-[error] GET     /hhh                           controllers.Kelompok.dataku
-[error] two errors found
+[error] D:\scalaweb\app\controllers\ClientSocket.scala:81:29: type mismatch;
+[error]  found   : List[String]
+[error]  required: String
+[error]           dout.writeUTF(grup(w))
+[error]                             ^
+[error] one error found
